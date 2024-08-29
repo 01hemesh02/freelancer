@@ -1,0 +1,193 @@
+/**************************************
+  About Page CSS
+ **************************************/
+.about-area {
+    position: relative;
+    z-index: 1;
+}
+
+.about-content {
+    margin-right: 60px;
+}
+
+.about-content h6 {
+    color: #5e87eb;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.about-content h2 {
+    font-size: 33px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.about-content-text p {
+    margin-bottom: 15px;
+}
+
+.about-area .skills {
+    margin-top: 30px;
+}
+
+.about-area .skills .skill-item {
+
+    margin-bottom: 25px;
+}
+
+.about-area .skills .skill-item:last-child {
+    margin-bottom: 0px;
+}
+
+.about-area .skills .skill-item h6 {
+    position: relative;
+    z-index: 4;
+    font-size: 15px;
+    letter-spacing: 0.7px;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #2f328e;
+}
+
+.about-area .skills .skill-item h6 em {
+    float: right;
+    font-size: 15px;
+    font-style: normal;
+}
+
+.about-area .skills .skill-item .skill-progress {
+    position: relative;
+    height: 5px;
+    border-radius: 5px;
+    background: #f1f1fa;
+}
+
+.about-area .skills .skill-item .skill-progress .progres {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 10%;
+    background-color: #06a3e5;
+    -webkit-transition: all 1.5s;
+    transition: all 1.5s;
+}
+
+.about-image {
+    position: relative;
+    text-align: center;
+    margin-right: 40px;
+}
+
+.about-image img {
+    border-radius: 3px;
+    box-shadow: 0px 10px 60px rgb(0, 0, 0, 0.2);
+}
+
+.about-image:before {
+    display: block;
+    content: '';
+    position: absolute;
+    right: -55px;
+    top: 55px;
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: url(../public/assets/img/home/dot.svg);
+    background-repeat: repeat;
+}
+
+/**********************************************
+ ** - 13 - Other Page Banner Title CSS
+ **********************************************/
+.page-title-area {
+    position: relative;
+    z-index: 1;
+    background-image: url(../public/assets/img/page-title-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.page-title-area::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0.5;
+    background-color: #5e87eb;
+    background-image: linear-gradient(-135deg, #611bdd 0%, #5e87eb 100%);
+}
+
+.page-title-content {
+    text-align: center;
+    margin-top: 45px;
+    padding-top: 3rem;
+}
+
+.page-title-content h2 {
+    margin-bottom: 0;
+    color: #ffffff;
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.page-title-content ul {
+    padding-left: 0;
+    list-style-type: none;
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+
+.page-title-content ul li {
+    color: #ffffff;
+    display: inline-block;
+    position: relative;
+    font-weight: 400;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.page-title-content ul li a {
+    display: inline-block;
+    color: #ffffff;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.page-title-content ul li a:hover {
+    color: #5e87eb;
+}
+
+.page-title-content ul li::before {
+    content: '';
+    position: absolute;
+    right: -15px;
+    top: 11px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #5e87eb;
+}
+
+.page-title-content ul li:last-child::before {
+    display: none;
+}
+
+.item-bg1 {
+    background-image: url(../public/assets/img/page-title-bg-2.jpg);
+}
+
+.item-bg2 {
+    background-image: url(../public/assets/img/page-title-bg-3.jpg);
+}

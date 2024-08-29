@@ -1,0 +1,34 @@
+{
+  "homepage": "https://01hemesh02.github.io/freelancer",
+  "name": "solar",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d .next",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.1",
+    "eslint": "8.47.0",
+    "eslint-config-next": "13.4.19",
+    "next": "13.4.19",
+    "node-sass": "^9.0.0",
+    "query-string": "^8.1.0",
+    "react": "18.2.0",
+    "react-countup": "^6.5.3",
+    "react-dom": "18.2.0",
+    "react-feather": "^2.0.10",
+    "react-modern-drawer": "^1.4.0",
+    "react-scroll-trigger": "^0.6.14",
+    "react-slick": "^0.30.2",
+    "sass": "^1.66.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}

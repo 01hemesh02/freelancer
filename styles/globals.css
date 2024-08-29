@@ -1,0 +1,66 @@
+/*====================================
+    font
+=====================================*/
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&amp;display=swap');
+
+:root {
+    --font-weight-body--bold: 700;
+    --font-weight-body--bolder: 700;
+
+    --font-color-body: #6f6f6f;
+    --font-size-body: 15px;
+    --background-color-body: #ffffff;
+    --extra-color-body: #f8f7f5;
+
+    --font-custom-stack-body: 'Jost', sans-serif;
+    --font-custom-weight-body: 400;
+    --font-custom-style-body: normal;
+
+    --font-letter-spacing-body: 0px;
+
+    --font-color-header: #333333;
+
+    --font-custom-stack-header: 'Jost', sans-serif;
+    --font-custom-weight-header: 600;
+    --font-custom-style-header: normal;
+
+    --font-color-section-header: #333333;
+
+    --font-custom-stack-section-header: 'Jost', sans-serif;
+    --font-custom-weight-section-header: 600;
+    --font-custom-style-section-header: normal;
+
+    --font-text-section-header: uppercase;
+
+    --font-color-paragraph: #6f6f6f;
+
+    --font-custom-stack-paragraph: 'Jost', sans-serif;
+    --font-custom-weight-paragraph: 400;
+    --font-custom-style-paragraph: normal;
+
+    --font-line-height-paragraph: 30px;
+
+    --font-custom-stack-other: 'Outfit', sans-serif;
+
+    --footer-text-color: #808080;
+    --footer-head-color: #7f462b;
+
+    --font-color-primary: #7f462b;
+    --font-color-secondary: #333333;
+    --theme-border-color: rgba(127, 70, 43, 0.2);
+
+    --sti-color: #6f6f6f;
+    --sti-font-size: 15px;
+    --sti-bgcolor: #FFFFFF;
+    --sti-text: none;
+    --sti-font-weight: 400;
+    --sti-border: 1px solid rgba(127, 70, 43, 0.3);
+    --sti-border-radius: 6px;
+
+    --box-body-bgcolor: #FFFFFF;
+    --box-shadow-color: 0px 0px 15px rgba(51, 51, 51, 0.15);
+}
+
+/*====================================
+    home-area
+=====================================*/
