@@ -1,0 +1,13 @@
+{
+  "/_document": "pages/_document.js",
+  "/about": "pages/about.html",
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/blogs": "pages/blogs.html",
+  "/capturingmoment": "pages/capturingmoment.html",
+  "/contact": "pages/contact.html",
+  "/groundMount": "pages/groundMount.html",
+  "/": "pages/index.html",
+  "/rooftopGrid": "pages/rooftopGrid.html",
+  "/404": "pages/404.html"
+}

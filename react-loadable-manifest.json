@@ -1,0 +1,58 @@
+{
+  "about\\index.js -> @/components/_App/About/AboutSection": {
+    "id": 7594,
+    "files": [
+      "static/chunks/594.2d5761e55d0cad44.js"
+    ]
+  },
+  "about\\index.js -> @/components/_App/About/PartnerSection": {
+    "id": 8045,
+    "files": [
+      "static/chunks/278.20f06be8a6c7d8f3.js",
+      "static/css/4df78f2cd73d6b26.css",
+      "static/chunks/854.d26eec62ed1c7edf.js"
+    ]
+  },
+  "about\\index.js -> @/components/_App/About/TeamMembers": {
+    "id": 5259,
+    "files": [
+      "static/chunks/259.94ab74370c507247.js"
+    ]
+  },
+  "about\\index.js -> @/components/_App/TitleBanner": {
+    "id": 2354,
+    "files": [
+      "static/chunks/354.7d5140fc0ae2b304.js"
+    ]
+  },
+  "contact\\index.js -> @/components/_App/TitleBanner": {
+    "id": 2354,
+    "files": [
+      "static/chunks/354.7d5140fc0ae2b304.js"
+    ]
+  },
+  "index.js -> @/components/_App/HomePage/Banner": {
+    "id": 2207,
+    "files": [
+      "static/chunks/207.27974ed612c9739e.js"
+    ]
+  },
+  "index.js -> @/components/_App/HomePage/CounterArea": {
+    "id": 3809,
+    "files": [
+      "static/chunks/809.4080cc6c614523c1.js"
+    ]
+  },
+  "index.js -> @/components/_App/HomePage/OverviewSection": {
+    "id": 16,
+    "files": [
+      "static/chunks/16.7cfc6b8dc0e5bf6d.js"
+    ]
+  },
+  "index.js -> @/components/_App/HomePage/ServicesSection": {
+    "id": 6506,
+    "files": [
+      "static/chunks/506.f861f49c3c00390f.js"
+    ]
+  }
+}
